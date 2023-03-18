@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+#btn {
+    border: 2px solid #000;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

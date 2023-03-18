@@ -1,0 +1,14 @@
+.message-wrap {
+    width: 50vw;
+    height: 40vh;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+
+}
+
+#message  {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+

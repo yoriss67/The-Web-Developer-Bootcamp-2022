@@ -1,0 +1,11 @@
+.box-wrapper {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+}
+
+.box {
+    width: 18vw;
+    height: 18vh;
+    border: 1px solid #000;
+}

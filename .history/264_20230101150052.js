@@ -1,0 +1,1 @@
+const tweetForm = document.getElementById('tweetForm')

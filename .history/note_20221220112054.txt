@@ -1,0 +1,14 @@
+SELECT name, age, department
+  FROM Employees as e1
+ WHERE e1.age < (SELECT AVG(age) as avg_age
+                   FROM Employees 
+                  WHERE e1.department = e1.department);
+
+SELECT salary FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees)                  
+
+SELECT dep_id, name, salary FROM Employee AS E1 WHERE salary = (SELECT MAX(salary) FROM Employee AS E2 WHERE E1.dep_id = E2.dep_id);
+
+
+SELECT gender, name, birthday FROM Employee AS E1 WHERE birthday = (SELECT MIN(birthday) FROM Employee AS E2 WHERE E1.gender = E2.gender GROUP BY gender);
+
+SELECT name, salary, salary - MAX(salary) AS difference FROM Employee AS E1 WHERE difference = (SELECT MAX(salary) FROM Employee as)

@@ -1,0 +1,1 @@
+const bgc = document.getElementById('bgc')

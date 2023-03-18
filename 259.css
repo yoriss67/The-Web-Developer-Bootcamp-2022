@@ -1,0 +1,16 @@
+* {
+    text-align: center;
+}
+#btn {
+    border: 1px solid #000;
+    width: 15vw;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

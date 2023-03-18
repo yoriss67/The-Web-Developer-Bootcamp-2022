@@ -1,0 +1,5 @@
+SELECT name, age, department
+  FROM Employees as e1
+ WHERE e1.age < (SELECT AVG(age) as avg_age
+                   FROM Employees as e2
+                  WHERE e1.department = e2.department);

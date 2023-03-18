@@ -1,0 +1,9 @@
+SELECT name, age, department
+  FROM Employees as e1
+ WHERE e1.age < (SELECT AVG(age) as avg_age
+                   FROM Employees 
+                  WHERE e1.department = e1.department);
+
+SELECT salary FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees)                  
+
+SELECT dep_id, name, salary FROM Employees AS E1 WHERE salary = (SELECT )

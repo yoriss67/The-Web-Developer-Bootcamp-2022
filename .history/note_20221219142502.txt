@@ -1,0 +1,1 @@
+SELECT name FROM Department where something and select distinct something from employee where something is not null and sorry 30,000;

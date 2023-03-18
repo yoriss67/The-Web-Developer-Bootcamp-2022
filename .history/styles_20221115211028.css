@@ -1,0 +1,11 @@
+.message-wrap {
+    width: 50vw;
+    height: 40vh;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+
+}
+
+#message  {
+    width: 20%;
+

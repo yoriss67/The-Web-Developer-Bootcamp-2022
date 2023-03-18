@@ -1,0 +1,44 @@
+.message-wrap {
+    width: 50vw;
+    height: 40vh;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+
+}
+
+#message {
+    width: 100px;
+    word-wrap: break-word;
+    height: auto;
+    background-color: rgb(201, 182, 158);
+    color: white;
+
+    padding-right: 5rem;
+    margin-right: 5rem;
+}
+
+
+
+#btn {
+    margin-top: 3rem;
+    width: 100px;
+    height: 50px;
+    background-color: skyblue;
+    border: none;
+}
+
+.img-box {
+}
+
+.img-box img {
+    display: block;
+    width: 30vw;
+    height: auto;
+    margin: 3rem;
+}
+
+
+/* 215 */
+.numberOrder {
+    width: ;
+}
